@@ -1,0 +1,1 @@
+New-Item -ItemType Directory -Force -Path "$HOME\.gemini\config\skills"; Copy-Item -Recurse -Force skills\de-ai-writing-style "$HOME\.gemini\config\skills\"; Write-Host 'Installed de-ai-writing-style'
