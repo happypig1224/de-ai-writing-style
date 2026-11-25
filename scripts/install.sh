@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env bash
 set -e
 
-REPO_OWNER="${REPO_OWNER:-YOUR_GITHUB_USERNAME}"
-BRANCH="${BRANCH:-master}"
+REPO_OWNER="${REPO_OWNER:-happypig1224}"
+BRANCH="${BRANCH:-main}"
 SKILL_NAME="de-ai-writing-style"
 TARGET_DIR="$HOME/.gemini/config/skills/$SKILL_NAME"
 TARGET_FILE="$TARGET_DIR/SKILL.md"
